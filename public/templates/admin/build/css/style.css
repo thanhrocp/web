@@ -1,0 +1,59 @@
+html,
+body {
+    font-family: 'scandia-web',sans-serif;
+    font-size: 0.9rem;
+}
+
+input {
+    border-radius: 4px !important;
+}
+
+.form-control {
+    border: 0.5px solid #5c5c5c;
+}
+
+.form-control:focus {
+    border-color: #5c5c5c;
+    border-right-width: 1px;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-content {
+    margin: 20px 0 0 0;
+}
+
+.required {
+    color: red;
+}
+
+.radio-status > input {
+    margin-top: 5px;
+}
+
+.radio-status > span {
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+
+.radio > .radio-status {
+    margin-top: 6px;
+}
+
+.btn-danger:hover {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2) !important;
+}
+
+.btn-reset {
+    border: 0.5px solid #5c5c5c;
+}
+
+.btn-reset:hover {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2) !important;
+}
+
+.body-button {
+    margin-top: 50px;
+}
